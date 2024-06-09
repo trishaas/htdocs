@@ -1,0 +1,27 @@
+2024-05-13T04:00:26+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_6641905a4f118httplocalhostafdhalattirewp-admin","smb_name":"PROD","redirect_url":"http:\/\/localhost\/afdhalattire\/wp-admin\/"}
+ ajax: no
+2024-05-13T04:00:26+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+X-Tt-Logid: 2024051304002690EADC062371CF688BF9,2024051304002690EADC062371CF688BF9
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Server-Timing: inner; dur=114
+x-tt-trace-host: 016bd9195d53f6ffe0069a568ce0de5e3bb05ae898c8c5c164c617c4a9db28bc20e85f1ef0041e5d73b263069f5cbaf667cb9664bc4019d049a1db2e033477bb2b0d1a1d449f38f7667880c659f137aa22bb88b3e88c001316385a748e7fcc002a
+x-tt-trace-id: 00-24051304002690EADC062371CF688BF9-73863F127D80A1D6-00
+Server: TLB
+Content-Encoding: gzip
+Date: Mon, 13 May 2024 04:00:27 GMT
+Content-Length: 210
+X-Cache: TCP_MISS from a23-50-117-213.deploy.akamaitechnologies.com (AkamaiGHost/11.5.0.1-56208139) (-)
+Connection: close
+Vary: Accept-Encoding
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=3, origin; dur=133
+X-Origin-Response-Time: 134,23.50.117.213
+X-Akamai-Request-ID: 1febe979
+
+{"code":0,"msg":"ok","data":{"external_data_key":"e3c876bc-1f61-4c78-a961-cd459aa5f731","redirect_uri":"http:\/\/localhost\/afdhalattire\/wp-admin\/","app_secret":"8257532a38f2f1f246bb5e7822a5546fb7cdec2b","app_id":"7368329188379459585"}}
+
